@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script';
+    overflow-x: hidden;
+    background-color: blanchedalmond;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+
+nav .onglets img{
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height:20px;
+    vertical-align: text-top;
+
+}
+
+nav h1{
+    color: #717171;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    margin-right: 1780px;
+}
+nav .onglets{
+    margin-top: -80px;
+    margin-left: 1380px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+
+}
+
+#bouda{
+    width: 500px;
+    height: 400px;
+    margin-bottom: -500px;
+    margin-top: 110px;
+}
+
+h4{
+    font-size:24px;
+    color:#444;
+}
+
+p{
+    line-height: 20px;
+    color:#777
+}
+
+.onglets > #button> a{
+    border-bottom: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://th.bing.com/th/id/R.24ee12ad40adc0f3804c20b4e94652b5?rik=HUJqs%2bK7tMO5UA&pid=ImgRaw&r=0');
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    height: 600px;
+   width:2000px;
+   
+
+}
+header h1{
+    font-family: 'Dancing Script';
+    font-size: 100px;
+    height: 100px;
+    margin-right:160px;
+    text-align: center;
+    padding-right:50px;
+}
+
+h3{
+    margin-left: 920px;
+}
+
+iframe{
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 90px;
+
+}
+
+#ok{
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe #map{
+    display: flex;
+    justify-content: center;
+}
+
+#images{
+    justify-content: space-between;
+}
